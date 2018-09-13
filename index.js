@@ -11,10 +11,10 @@ function theBeatlesPlay(musicians, instruments) {
   var emptyArray = [];
   var i = 0;
   while (i < facts.length) {
-    array.push(facts[i] + "!!!");
+    emptyArray.push(facts[i] + "!!!");
     i++;
   }
-  return array;
+  return emptyArray;
 }
  function iLoveTheBeatles(number) {
   var array = [];
